@@ -1,1 +1,57 @@
 site_name: PiloeGAO's Personnal Blog
+theme:
+  name: material
+  logo: assets/logo.svg
+  favicon: images/favicon.svg
+  font:
+    code: Roboto Mono
+  icon:
+    tag:
+      story: fontawesome/regular/address-book
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/eye 
+        name: Switch to dark mode
+      primary: deep orange
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode
+      primary: deep orange
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.footer
+    - header.autohide
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/PiloeGAO
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/piloegao/
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/PiloeGAO
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  generator: false
+  tags:
+    story: story
+copyright: CC Attribution-ShareAlike 4.0 International - Leo Depoix
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg

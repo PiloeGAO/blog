@@ -1,17 +1,19 @@
-# Welcome to MkDocs
+# Welcome !
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+I start this blog to detail more my projects or create tutorials.
 
-## Commands
+The target of this will be developing for CGI, Games or Softwares.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This is the list of tools that I use for my personnal projects:
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+| Name               | Category             | Website                                                 |
+|--------------------|----------------------|---------------------------------------------------------|
+| Blender            | CGI                  | [blender.org](https://www.blender.org/)                 |
+| SideFX Houdini     | CGI                  | [sidefx.com](https://www.sidefx.com/)                   |
+| Godot Engine       | Game Engine          | [godotengine.org](https://godotengine.org/)             |
+| Affinity by Sherif | 2D Tools             | [affinity.serif.com](https://affinity.serif.com/en-us/) |
+| Python             | Programming Language | [python.org](https://www.python.org/)                   |
+| C++                | Programming Language |                                                         |
+| Visual Studio Code | IDE                  | [code.visualstudio.com](https://code.visualstudio.com/) |
+| Fork               | Git Client           | [git-fork.com](https://git-fork.com/)                   |
+| Docker             | Tools                | [docker.com](https://www.docker.com/)                   |
